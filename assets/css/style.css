@@ -20,6 +20,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	background-image: url("../images/concrete.png");
 }
 
 .page-wrap {
@@ -141,6 +142,11 @@ body {
 	justify-content: space-between;
 }
 
+.connect-icon {
+	height: 60px;
+	width: 60px;
+}
+
 .sticky-footer {
 	background-color: #666666;
 	width: 100%;
@@ -162,4 +168,5 @@ body {
 	height: 140px;
 	margin-right: 20px;
 	margin-bottom: 0px;
+	float: left;
 }
